@@ -16,13 +16,14 @@ button.addEventListener('click', () => {
   let userAnswer = Number(input.value)
   
   if (result === userAnswer) {
-    alert('Поздравляем, вы дали верный ответ')
+    alert('РџРѕР·РґСЂР°РІР»СЏРµРј, РІС‹ РґР°Р»Рё РІРµСЂРЅС‹Р№ РѕС‚РІРµС‚')
     firstRandomNumber = getRandomInRange(1, 9)
     secondRandomNumber = getRandomInRange(1, 9)
     task.textContent = `${firstRandomNumber} * ${secondRandomNumber}`
   } else {
-    alert('Извините, ответ неверный, попробуйте еще раз')
+    alert('РР·РІРёРЅРёС‚Рµ, РѕС‚РІРµС‚ РЅРµРІРµСЂРЅС‹Р№, РїРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·')
   }
   input.value = ''
   input.focus()
 })
+
